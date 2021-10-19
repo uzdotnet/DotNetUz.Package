@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>DotNetUz</RootNamespace>
+    <Authors>.NET Uzbekistan Community</Authors>
+    <Company>Genius Coders</Company>
+    <Description>Some tools of developer for easyly.</Description>
+    <Copyright>2021</Copyright>
+    <PackageLicenseFile>ReadMe.txt</PackageLicenseFile>
+    <PackageIcon>Рисунок1.png</PackageIcon>
+    <Product>DotNetUz's some tools</Product>
+    <PackageProjectUrl>https://dot-net.uz</PackageProjectUrl>
+    <PackageReleaseNotes>This is first release</PackageReleaseNotes>
+    <PackageTags>dotnetuz sometools screenshot encode decode mukhammadkarim dotnetuzcommunity</PackageTags>
+    <PackageId>DotNetUz.Tools</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="D:\STARTUPs\DOT-NET.UZ\Рисунок1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="ReadMe.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
