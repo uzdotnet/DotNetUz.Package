@@ -7,7 +7,7 @@
 	<Title>Simple Json for get/post requesting and converting objects</Title>
     <Description>Json serializing and deserializing simply, you can use it for HttpClient Requests</Description>
     <PackageIcon>logo.png</PackageIcon>
-	<PackageVersion>1.0.1</PackageVersion>
+	<PackageVersion>1.0.2</PackageVersion>
 	<RepositoryType>git</RepositoryType>
 	<Authors>.NET Uzbekistan Community</Authors>
 	<Company>dotnetuz</Company>
