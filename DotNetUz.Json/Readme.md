@@ -1,4 +1,4 @@
-﻿<h4>You can use DotNetUz.Json such as following:
+<h4>You can use DotNetUz.Json such as following:
 we created for you extension method </h4>
 
 
