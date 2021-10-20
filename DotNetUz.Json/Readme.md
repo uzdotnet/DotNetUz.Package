@@ -20,6 +20,6 @@ Course course = new Course() { };
 string json = course.AsJson();
 ```
 
-site: https://dot-net.uz <br/>
-telegram channel: https://t.me/uz_dotnet <br/>
-telegram group chat: https://t.me/uz_dotnet_chat <br/>
+Site: https://dot-net.uz <br/>
+Telegram channel: https://t.me/uz_dotnet <br/>
+Telegram group chat: https://t.me/uz_dotnet_chat <br/>
