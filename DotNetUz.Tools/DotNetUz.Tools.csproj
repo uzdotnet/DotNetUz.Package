@@ -10,7 +10,7 @@
     <PackageLicenseFile>ReadMe.txt</PackageLicenseFile>
     <PackageIcon>Рисунок1.png</PackageIcon>
     <Product>DotNetUz's some tools</Product>
-    <PackageProjectUrl>https://dot-net.uz</PackageProjectUrl>
+    <PackageProjectUrl>https://package.dot-net.uz</PackageProjectUrl>
     <PackageReleaseNotes>This is first release</PackageReleaseNotes>
     <PackageTags>dotnetuz sometools screenshot encode decode mukhammadkarim dotnetuzcommunity</PackageTags>
     <PackageId>DotNetUz.Tools</PackageId>

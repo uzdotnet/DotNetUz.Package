@@ -20,9 +20,9 @@ namespace DotNetUz.Json
 
 
         // GET METHOD
-        public static async Task<TSource> GetJsonAsync<TSource>(this HttpClient httpClient, string? requestUrl, CancellationToken? cancellationToken = null)
+        public static async Task<TSource> GetJsonAsync<TSource>(this HttpClient httpClient, string? requestUrl)
         {
-            var response = await httpClient.GetAsync(requestUrl, cancellationToken.Value);
+            var response = await httpClient.GetAsync(requestUrl);
             var content = await response.Content.ReadAsStringAsync();
             return content.JsonAs<TSource>();
         }

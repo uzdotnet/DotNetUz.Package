@@ -4,17 +4,19 @@
     <TargetFramework>net5.0</TargetFramework>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Title>Simple Json for get/post requesting and converting objects</Title>
     <Description>Json serializing and deserializing simply, you can use it for HttpClient Requests</Description>
     <PackageIcon>logo.png</PackageIcon>
-	  <PackageVersion>1.0.1-beta</PackageVersion>
-	  <RepositoryType>git</RepositoryType>
-	  <Authors>Mukhammadkarim Tukhtaboev</Authors>
-	  <Company>dotnetuz</Company>
-	  <Copyright>2021</Copyright>
-	  <PackageProjectUrl>https://package.dot-net.uz</PackageProjectUrl>
-	  <PackageReadmeFile>Readme.md</PackageReadmeFile>
-	  <RepositoryUrl>https://github.com/uzdotnet/DotNetUz.Package.git</RepositoryUrl>
-	  <PackageTags>dotnetuz; Json Serializer; JsonAs; AsJson; GetJsonAsync;  PostJsonAsync mukhammadkarim; Janob Panda; simple json;</PackageTags>
+	<PackageVersion>1.0.1-alpha</PackageVersion>
+	<RepositoryType>git</RepositoryType>
+	<Authors>.NET Uzbekistan Community</Authors>
+	<Company>dotnetuz</Company>
+	<Copyright>2021</Copyright>
+	<PackageProjectUrl>https://package.dot-net.uz</PackageProjectUrl>
+	<PackageReadmeFile>Readme.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/uzdotnet/DotNetUz.Package.git</RepositoryUrl>
+	<PackageTags>dotnetuz; Json Serializer; JsonAs; AsJson; GetJsonAsync;  PostJsonAsync mukhammadkarim; Janob Panda; simple json;</PackageTags>
+	<PackageLicenseFile>Readme.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +33,8 @@
   <ItemGroup>
     <None Update="Readme.md">
       <Pack>True</Pack>
-    </None>
+	  <PackagePath></PackagePath>
+	</None>
   </ItemGroup>
 
 </Project>
