@@ -8,6 +8,13 @@
     <PackageIcon>logo.png</PackageIcon>
 	  <PackageVersion>1.0.1-beta</PackageVersion>
 	  <RepositoryType>git</RepositoryType>
+	  <Authors>Mukhammadkarim Tukhtaboev</Authors>
+	  <Company>dotnetuz</Company>
+	  <Copyright>2021</Copyright>
+	  <PackageProjectUrl>https://package.dot-net.uz</PackageProjectUrl>
+	  <PackageReadmeFile>Readme.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/uzdotnet/DotNetUz.Package.git</RepositoryUrl>
+	  <PackageTags>dotnetuz; Json Serializer; JsonAs; AsJson; GetJsonAsync;  PostJsonAsync mukhammadkarim; Janob Panda; simple json;</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +26,12 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>DotNetUz</RootNamespace>
+    <RootNamespace>DotNetUz.Tools</RootNamespace>
     <Authors>.NET Uzbekistan Community</Authors>
     <Company>dotnetuz</Company>
     <Description>Some tools of developer for easyly.</Description>
