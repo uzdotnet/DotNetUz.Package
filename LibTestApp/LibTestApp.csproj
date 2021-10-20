@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNetUz\DotNetUz.csproj" />
+    <ProjectReference Include="..\DotNetUz.Json\DotNetUz.Json.csproj" />
+    <ProjectReference Include="..\DotNetUz\DotNetUz.Tools.csproj" />
   </ItemGroup>
 
 </Project>

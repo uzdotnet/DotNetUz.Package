@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>DotNetUz</RootNamespace>
     <Authors>.NET Uzbekistan Community</Authors>
-    <Company>Genius Coders</Company>
+    <Company>dotnetuz</Company>
     <Description>Some tools of developer for easyly.</Description>
     <Copyright>2021</Copyright>
     <PackageLicenseFile>ReadMe.txt</PackageLicenseFile>
@@ -15,6 +15,8 @@
     <PackageTags>dotnetuz sometools screenshot encode decode mukhammadkarim dotnetuzcommunity</PackageTags>
     <PackageId>DotNetUz.Tools</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

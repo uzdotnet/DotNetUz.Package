@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace DotNetUz.Tools
 {
@@ -8,9 +10,9 @@ namespace DotNetUz.Tools
         {
             return int.Parse(str);
         }
-        public static double ToDouble(this string str)
+        public static bool IsOdd(this int number)
         {
-            return double.Parse(str);
+            return number % 2 == 1;
         }
     }
 }
